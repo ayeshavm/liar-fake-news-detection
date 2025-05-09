@@ -11,7 +11,7 @@
 
 Misinformation is one of the biggest threats in our digital age, especially in political discourse. This project explores a hybrid NLP and machine learning pipeline for classifying the truthfulness of political statements using the LIAR dataset. It compares classic and deep learning approaches, introducing a hybrid architecture that combines BERT embeddings with structured metadata and uncertainty estimation via Monte Carlo (MC) Dropout.
 
----
+
 
 ## 🔍 Objective
 
@@ -24,7 +24,7 @@ Build a robust classification model that can label political statements across s
 - **False**
 - **Pants on Fire**
 
----
+
 
 ## 🧰 Techniques Used
 
@@ -36,7 +36,7 @@ Build a robust classification model that can label political statements across s
 - **Hybrid Model** (BERT + metadata like speaker & party)
 - **Hybrid MC** (Hybrid + Monte Carlo Dropout)
 
----
+
 
 ## 🧪 Pipeline
 
@@ -58,7 +58,7 @@ Build a robust classification model that can label political statements across s
    - F1-Score
    - AUC-ROC
 
----
+
 
 ## 📊 Results
 
@@ -71,7 +71,7 @@ Build a robust classification model that can label political statements across s
 - Hybrid MC v3 showed the best F1-score and overall performance.
 - AUC-ROC peaked earlier in training, suggesting room for better calibration.
 
----
+
 
 ## 🧠 Key Insights
 
@@ -79,7 +79,7 @@ Build a robust classification model that can label political statements across s
 - MC Dropout improves generalization by modeling prediction uncertainty.
 - Progressive fine-tuning avoids catastrophic forgetting and aids stability.
 
----
+
 
 ## 🚧 Challenges
 
@@ -87,7 +87,7 @@ Build a robust classification model that can label political statements across s
 - Inconsistent AUC-ROC across training phases.
 - Limited training data for nuanced truth classification.
 
----
+
 
 ## 🔮 Future Work
 
@@ -95,7 +95,7 @@ Build a robust classification model that can label political statements across s
 - Advanced data augmentation (e.g., paraphrasing, adversarial examples)
 - Feature ablation studies to identify and prioritize impactful metadata
 
----
+
 
 ## 📂 Project Structure
 ```
@@ -114,4 +114,4 @@ Build a robust classification model that can label political statements across s
 - Gal & Ghahramani (2016). Dropout as a Bayesian Approximation.
 - Liu et al. (2019). RoBERTa: A Robustly Optimized BERT Pretraining Approach.
 
----
+
