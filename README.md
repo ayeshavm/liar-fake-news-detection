@@ -7,6 +7,12 @@
 
 ---
 
+## 📰 Description
+
+This project explores fake news classification using the LIAR dataset. It combines RoBERTa-based text embeddings with speaker metadata in a hybrid model, and applies Monte Carlo Dropout for uncertainty estimation. The result is a robust multi-class classifier for political misinformation, with steady gains in F1-score through progressive fine-tuning.
+
+
+
 ## 📌 Project Overview
 
 Misinformation is one of the biggest threats in our digital age, especially in political discourse. This project explores a hybrid NLP and machine learning pipeline for classifying the truthfulness of political statements using the LIAR dataset. It compares classic and deep learning approaches, introducing a hybrid architecture that combines BERT embeddings with structured metadata and uncertainty estimation via Monte Carlo (MC) Dropout.
